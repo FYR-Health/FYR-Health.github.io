@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
+title: "FYR Health – Connecting you to Fitness & Health"
+email: hello@fyrhealth.com
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: FYRHealth
+github_username: FYR-Health
 
 # Build settings
 markdown: kramdown
