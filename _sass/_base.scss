@@ -318,9 +318,20 @@ header {
 }
 
 // Contact
-#contact .fa {
-    color: $theme-dark;
-    font-size: 2.5em;
+#contact {
+    .fa {
+        color: $theme-dark;
+        font-size: 2.5em;
+    }
+
+    .contact-links {
+        margin-top: 1.25rem;
+
+        .contact-icon-link p {
+            margin-top: 0.8rem;
+            margin-bottom: 2.5rem;
+        }
+    }
 }
 
 // Extras
