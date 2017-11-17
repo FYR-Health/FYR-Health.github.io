@@ -8,8 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-twitter_username: FYRHealth
-github_username: FYR-Health
+facebook_username: fyrhealth
+instagram_username: fyrhealthapp
 
 # Build settings
 markdown: kramdown
