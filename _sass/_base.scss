@@ -75,7 +75,7 @@ aside {
 // Navigation
 
 nav > .container-fluid {
-    max-width: 1600px;
+    max-width: 1170px;
 }
 
 .navbar-default {
@@ -127,6 +127,14 @@ nav > .container-fluid {
             &:hover {
                 color: white;
             }
+
+            &.btn.navbar-btn {
+                background: transparent;
+                border: 2px solid;
+                border-radius: 10px;
+                line-height: 0.75rem;
+                margin-left: 0.9rem;
+            }
         }
 
         &.affix-top {
@@ -140,7 +148,8 @@ nav > .container-fluid {
 
             .nav > li > a {
                 font-size: 1rem;
-                line-height: 3rem;
+                line-height: 1rem;
+                margin: 1rem 0;
             }
         }
 
@@ -159,6 +168,12 @@ nav > .container-fluid {
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
+                }
+
+                &.btn.navbar-btn {
+                    @include button-variant(white, $theme-primary, $theme-primary);
+                    border: none;
+                    line-height: 0.25rem;
                 }
             }
         }
