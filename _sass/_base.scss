@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-size: 16px;
 }
 
 body {
@@ -37,7 +38,7 @@ h6 {
 }
 
 p {
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -73,19 +74,19 @@ aside {
 
 // Navigation
 
+nav > .container-fluid {
+    max-width: 1600px;
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
     .navbar-header .navbar-brand {
-        color: $theme-primary;
-        @include sans-serif-font;
-        font-weight: 700;
-        text-transform: uppercase;
-        &:hover,
-        &:focus {
-            color: darken($theme-primary, 10%);
+
+        img {
+            height: 1.5rem;
         }
     }
     .nav {
@@ -94,7 +95,7 @@ aside {
             > a:focus {
                 text-transform: uppercase;
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 0.85rem;
                 color: $theme-dark;
                 &:hover {
                     color: $theme-primary;
@@ -112,34 +113,47 @@ aside {
             }
         }
     }
+
     @media (min-width: 768px) {
+        padding-left: 3rem;
+        padding-right: 3rem;
         background-color: transparent;
         border-color: rgba(white, .3);
-        .navbar-header .navbar-brand {
-            color: rgba(white, .7);
-            &:hover,
-            &:focus {
-                color: white;
-            }
-        }
+
         .nav > li > a,
         .nav > li > a:focus {
             color: rgba(white, .7);
+
             &:hover {
                 color: white;
             }
         }
+
+        &.affix-top {
+            .navbar-header .navbar-brand {
+                height: 5rem;
+
+                img {
+                    height: 3rem;
+                }
+            }
+
+            .nav > li > a {
+                font-size: 1rem;
+                line-height: 3rem;
+            }
+        }
+
         &.affix {
             background-color: white;
             border-color: rgba($theme-dark, .5);
+
             .navbar-header .navbar-brand {
-                color: $theme-primary;
-                font-size: 14px;
-                &:hover,
-                &:focus {
-                    color: darken($theme-primary, 10%);
+                img {
+                    height: 1.5rem;
                 }
             }
+
             .nav > li > a,
             .nav > li > a:focus {
                 color: $theme-dark;
@@ -240,8 +254,10 @@ header {
         line-height: 60px;
     }
 
-    h4 {
-        margin-top: 10px;
+    h3 {
+        display: block;
+        margin-top: 0.8rem;
+        min-height: 3.25rem;
     }
 
     @media (min-width: 992px) {
