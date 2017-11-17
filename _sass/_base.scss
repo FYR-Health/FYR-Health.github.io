@@ -178,6 +178,13 @@ nav > .container-fluid {
             }
         }
     }
+
+    @media (max-width: 768px) {
+        .nav > li > .btn.navbar-btn {
+            text-align: left;
+            margin: 0;
+        }
+    }
 }
 
 // Homepage Header
