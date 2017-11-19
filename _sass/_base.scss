@@ -17,6 +17,7 @@ hr {
 
 hr.light {
     border-color: white;
+    padding: 20px 20px;
 }
 
 a {
@@ -45,6 +46,8 @@ p {
 
 .bg-primary {
     background-color: $theme-primary;
+    padding-top: 70px;
+    padding-bottom: 60px;
 }
 
 .bg-light {
