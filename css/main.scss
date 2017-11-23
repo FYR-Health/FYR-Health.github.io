@@ -19,8 +19,8 @@ $brand-color: #127cc3;
 // $grey-color-light: lighten($grey-color, 40%);
 // $grey-color-dark:  darken($grey-color, 25%);
 
-// // Width of the content area
-// $content-width:    800px;
+// Width of the contents
+$page-width: 1170px;
 
 // $on-palm:          600px;
 // $on-laptop:        800px;
@@ -33,7 +33,7 @@ $brand-color: #127cc3;
 //     }
 // }
 
-// variables.less
+// Colors
 $theme-primary: #127cc3;
 $theme-dark: #222;
 $theme-light: #f8f9fa;

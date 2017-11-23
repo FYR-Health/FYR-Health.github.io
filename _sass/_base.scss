@@ -78,7 +78,7 @@ aside {
 // Navigation
 
 nav > .container-fluid {
-    max-width: 1170px;
+    max-width: $page-width;
 }
 
 .navbar-default {
