@@ -344,6 +344,14 @@ header {
     }
 }
 
+// Footer
+footer {
+    > .container-fluid {
+        max-width: 1170px;
+        padding: 2rem 0;
+    }
+}
+
 // Extras
 // -- Highlight Color Customization
 ::-moz-selection {
