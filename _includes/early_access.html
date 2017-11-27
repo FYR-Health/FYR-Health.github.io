@@ -6,20 +6,15 @@
         <hr class="primary">
       </div>
     </div>
-    <form class="early-access-form form" action="{{ site.mailchimp.url }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-      <div class="row">
-        <div class="col-md-6 col-md-offset-3">
-          <div class="input-group">
-            <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Your email address" required>
-            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-              <input type="text" name="b_e0fa8c8a8ce1f79772a4a25e9_b5bec5fe88" tabindex="-1" value="">
-            </div>
-            <span class="input-group-btn">
-            <input type="submit" class="btn btn-primary btn-xl" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe">
-          </span>
-          </div>
-        </div>
+    <form class="early-access-form form-inline text-center" action="{{ site.mailchimp.url }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+      <div class="form-group">
+        <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Your email address" required>
+      </div>
+      <input type="submit" class="btn btn-primary btn-xl" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe">
+      <p><small class="text-muted">No worries, we hate spammers too.</small></p>
+      <div style="position: absolute; left: -5000px;" aria-hidden="true">
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <input type="text" name="b_e0fa8c8a8ce1f79772a4a25e9_b5bec5fe88" tabindex="-1" value="">
       </div>
     </form>
   </div>
