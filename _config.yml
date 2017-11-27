@@ -12,7 +12,7 @@ url: "" # the base hostname & protocol for your site
 facebook_username: fyrhealth
 instagram_username: fyrhealthapp
 mailchimp:
-  - url: https://fyrhealth.us16.list-manage.com/subscribe/post?u=e0fa8c8a8ce1f79772a4a25e9&amp;id=b5bec5fe88
+  url: https://fyrhealth.us16.list-manage.com/subscribe/post?u=e0fa8c8a8ce1f79772a4a25e9&amp;id=b5bec5fe88
 
 # Build settings
 markdown: kramdown
