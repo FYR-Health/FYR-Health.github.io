@@ -1,10 +1,27 @@
 <header>
   <div class="header-content">
     <div class="header-content-inner">
-      <h1>A Community for<br>Well-being</h1>
-      <hr>
-      <p>Connect to an expert</p>
-      <a href="#" class="btn btn-primary btn-xl">Get Started</a>
+      <div class="row">
+        <div class="col-md-12">
+          <h1>A Community for<br>Well-beings</h1>
+          <hr>
+          <p>Connect to an expert</p>
+        </div>
+      </div>
+      <form class="early-access-form form" action="{{ site.mailchimp.url }}" method="post" name="mc-embedded-subscribe-form" target="_blank" novalidate>
+        <div class="row">
+          <div class="col-md-6 col-xs-12">
+            <input type="email" value="" name="EMAIL" class="form-control email" id="mce-EMAIL" placeholder="Your email address" required>
+          </div>
+        </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="b_e0fa8c8a8ce1f79772a4a25e9_b5bec5fe88" tabindex="-1" value="">
+        </div>
+        <div class="row">
+          <input type="submit" class="btn btn-primary btn-xl" value="Get Early Access" name="subscribe" id="mc-embedded-subscribe">
+        </div>
+      </form>
     </div>
   </div>
 </header>
