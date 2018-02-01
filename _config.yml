@@ -2,9 +2,9 @@
 port: 1616
 
 # Site settings
-title: "FYR Health – Connecting you to Fitness & Health"
-email: info@fyrhealth.com
-brand: FYR Health
+title: "Unifyr – Connecting you to Fitness & Health"
+email: info@unifyr.com.au
+brand: Unifyer
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
