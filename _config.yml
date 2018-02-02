@@ -2,15 +2,15 @@
 port: 1616
 
 # Site settings
-title: "FYR Health – Connecting you to Fitness & Health"
-email: info@fyrhealth.com
-brand: FYR Health
+title: "Unifyr – Connecting you to Fitness & Health"
+email: info@unifyr.com.au
+brand: Unifyer
 description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-facebook_username: fyrhealth
-instagram_username: fyrhealthapp
+facebook_username: unifyr
+instagram_username: unifyr
 mailchimp:
   url: https://fyrhealth.us16.list-manage.com/subscribe/post?u=e0fa8c8a8ce1f79772a4a25e9&amp;id=b5bec5fe88
 
